@@ -18,6 +18,9 @@ struct ContentView: View {
             } label: {
                 Text("Click me")
             }
+            
+            Image(systemName: "house")
+                .padding()
 
         }
     }
